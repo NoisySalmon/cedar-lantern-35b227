@@ -1,0 +1,8 @@
+{
+  "name": "nickersons-creative-services",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing website for Nickerson’s Creative Services in Anacortes, Washington",
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "check": "node --check script.js && node --check server.mjs" },
+  "engines": { "node": ">=20" }
+}

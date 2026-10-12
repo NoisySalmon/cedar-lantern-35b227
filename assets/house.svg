@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c4d6e5"/><stop offset="1" stop-color="#eef0e6"/></linearGradient>
+ <linearGradient id="wood" x2="1" y2="1"><stop stop-color="#c2a185"/><stop offset="1" stop-color="#86624b"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#a9c5d5"/><stop offset="1" stop-color="#344c58"/></linearGradient>
+ <pattern id="siding" width="20" height="23" patternUnits="userSpaceOnUse"><rect width="20" height="23" fill="#e3ddd0"/><path d="M0 22H20" stroke="#c0b7a7" stroke-width="2"/></pattern>
+ <pattern id="boards" width="34" height="20" patternUnits="userSpaceOnUse"><rect width="34" height="20" fill="#aa8262"/><path d="M33 0V20" stroke="#79583f"/></pattern>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+ <g id="pine"><path d="M0 0L-45 105H-27L-63 163H-38L-78 221H78L38 163H63L27 105H45Z" fill="#456356"/><path d="M0 12V255" stroke="#4b5947" stroke-width="8"/></g>
+</defs>
+<g filter="url(#grain)">
+<rect width="1000" height="850" fill="url(#sky)"/>
+<circle cx="790" cy="165" r="82" fill="#f6eee0" opacity=".85"/>
+<path d="M0 360L190 215L290 292L440 165L690 355L825 264L1000 385V550H0" fill="#9aafad" opacity=".55"/>
+<path d="M0 420L150 320L298 401L530 284L720 420L906 337L1000 414V570H0" fill="#738f86" opacity=".5"/>
+<use href="#pine" transform="translate(52 177) scale(1.6)"/><use href="#pine" transform="translate(925 233) scale(1.3)"/><use href="#pine" transform="translate(118 247) scale(1.1)"/>
+<path d="M0 540Q260 476 540 546T1000 510V850H0" fill="#8d9d7d"/>
+<path d="M0 690Q350 628 1000 720V850H0" fill="#c2b69c"/>
+<!-- welcoming cedar and cream house, an illustration rather than a project photograph -->
+<path d="M189 401L512 261L833 402V656H189Z" fill="url(#siding)"/>
+<path d="M512 261L833 402L898 360L575 215Z" fill="#34464b"/>
+<path d="M133 389L506 210L898 360L833 402L510 276L191 421Z" fill="#2c3d43"/>
+<path d="M133 389L510 210L898 360" fill="none" stroke="#657174" stroke-width="7"/>
+<path d="M186 421L510 272L837 405" fill="none" stroke="#f1ecdf" stroke-width="13"/>
+<path d="M263 395L443 312V627H263Z" fill="url(#boards)"/>
+<path d="M508 330H679V528H508Z" fill="#f2eee3"/>
+<path d="M520 343H667V515H520Z" fill="url(#glass)"/>
+<path d="M594 343V515M520 429H667" stroke="#e8e4d8" stroke-width="8"/>
+<path d="M528 349L658 349L528 455Z" fill="#d9e6e5" opacity=".17"/>
+<path d="M705 427H788V548H705Z" fill="#f3efe5"/><path d="M715 438H778V538H715Z" fill="url(#glass)"/><path d="M746 438V538" stroke="#e8e4d8" stroke-width="6"/>
+<rect x="294" y="406" width="104" height="220" fill="#344c58"/><rect x="306" y="419" width="80" height="114" fill="url(#glass)"/><circle cx="382" cy="560" r="4" fill="#e0c38a"/>
+<path d="M203 640L829 615L920 687L291 734L144 683Z" fill="url(#wood)"/>
+<path d="M144 683L291 734L920 687V712L291 760L144 708Z" fill="#77563f"/>
+<g stroke="#755c48" stroke-width="2" opacity=".7"><path d="M195 653L332 724M272 642L409 718M350 636L489 712M428 633L565 706M506 630L645 700M584 627L722 694M662 624L800 689M740 620L878 683"/></g>
+<g stroke="#e5dfd0" stroke-width="12" fill="none"><path d="M189 566V702M247 570V720M455 560V720M620 552V707M785 544V695M885 588V683"/><path d="M184 574L247 588M455 583L885 560L785 532L455 555" stroke-width="9"/></g>
+<g stroke="#e5dfd0" stroke-width="5"><path d="M478 579V718M503 578V716M528 576V714M553 575V712M578 573V710M644 569V705M668 568V703M693 566V701M718 565V699M743 563V697M767 562V695M811 565V692M837 576V690M860 584V686"/></g>
+<path d="M270 744L419 734L453 759L301 772Z" fill="#bc9473"/><path d="M301 772L453 759V775L301 789Z" fill="#856249"/><path d="M301 789L453 775L480 794L326 810Z" fill="#bc9473"/>
+<g fill="#526a50"><ellipse cx="111" cy="680" rx="85" ry="46"/><ellipse cx="98" cy="659" rx="53" ry="48"/><ellipse cx="933" cy="704" rx="85" ry="45"/></g>
+<g fill="#bfb9a5"><ellipse cx="75" cy="748" rx="35" ry="16"/><ellipse cx="862" cy="775" rx="47" ry="20"/></g>
+<path d="M335 850L367 812L453 801L527 850" fill="#e2d7bf"/>
+<g><path d="M680 615H724L718 654H686Z" fill="#ac674a"/><path d="M700 615V573M700 603L680 587M700 600L720 580" stroke="#53694c" stroke-width="7"/><g fill="#738258"><ellipse cx="678" cy="580" rx="13" ry="20" transform="rotate(-35 678 580)"/><ellipse cx="719" cy="575" rx="12" ry="19" transform="rotate(35 719 575)"/><ellipse cx="700" cy="566" rx="11" ry="20"/></g></g>
+</g></svg>
