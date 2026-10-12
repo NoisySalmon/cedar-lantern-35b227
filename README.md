@@ -12,7 +12,7 @@ Upload `index.html`, `styles.css`, `script.js`, `NickersonsCS_SmallLogo.jpg`, an
 
 ## Content
 
-Business name, services, founding year, location, names, and phone numbers come from the supplied marketing email. Phone and text links connect visitors directly with Chris or Kelly Ann. The contact section also links to the user-provided business email, nickersonscreativeservices@gmail.com. No contact form backend is needed.
+Business name, services, founding year, location, names, and phone numbers come from the supplied marketing email. Phone and text links connect visitors directly with Chris or Kelly Ann. The contact section also links to the user-provided business email, nickersonscreativeservices@gmail.com. A Facebook link opens the supplied Nickerson’s Creative Services page in a new tab. No contact form backend is needed.
 
 The house illustration is conceptual artwork, not a completed NCS project. Replace it with an approved project photo if desired, updating its alt text in `index.html`. The blue palette follows the supplied logo. No customer reviews, credentials, service areas beyond Anacortes, or project claims have been invented. Scheduling availability is left open so the site stays current.
 
